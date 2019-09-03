@@ -1,0 +1,74 @@
+.header {
+	background-color: #000000;
+  	text-align: center;
+}
+
+.collapse navbar-collapse {
+	background-color: #C0C0C0;
+	text-align: center;
+  	padding: 14px 25px;	
+}
+
+.collapse navbar-collapse a{
+	padding: 18px 100px;
+	color:black;
+	font-size: 1.275em;
+	font-weight: bold;
+	text-decoration: none;
+	outline: none;
+}
+
+.collapse navbar-collapse a:hover{
+	color:white;
+}
+
+.header1 {
+	background-color: #C0C0C0;
+	text-align: center;	
+}
+
+.header2 {
+	background-color: #C0C0C0;
+	text-align: left;	
+}
+.header2 h3  {
+	background-color: #C0C0C0;
+	text-align: center;	
+}
+.aboutus{
+	background-color: #A9A9A9;	
+}
+.aboutus h1{
+	text-align: center;
+	font-weight: bold;
+	color:#2F4F4F;
+}
+
+.contactus{
+	background-color: #A9A9A9;
+	text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+} 
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+.column {
+  width: 100%;
+}
+
+
