@@ -13,6 +13,9 @@
     <link rel="icon" href="favicon.ico" />
   </head>
   <style>
+    html{
+      scroll-behavior: smooth;
+    }
     .header {
       background-color: #000000;
       text-align: center;
@@ -60,8 +63,8 @@
             and selling to give best products to our global partners &
             customers.
           </p>
-          <a class="btn btn-primary my-2" href="#">Our services</a
-          ><a class="btn btn-link my-2" href="#">Read more about us</a>
+          <a class="btn btn-primary my-2" href="#services">Our services</a
+          ><a class="btn btn-link my-2" href="#about">Read more about us</a>
         </div>
       </section>
 
@@ -79,14 +82,14 @@
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img class="d-block img-fluid" src="images/spices.jpg">
+                <img class="d-block img-fluid" src="images/spices.jpg" style="height: 50vh">
                 <div class="carousel-caption d-md-block">
                   <h4><b>Spices</b></h4>
                 </div>
               </div>
           
               <div class="carousel-item">
-                <img class="d-block img-fluid" src="images/grains.png">
+                <img class="d-block img-fluid" src="images/grains.png" style="height: 50vh">
                 <div class="carousel-caption d-md-block">
                  <h4><b>Grains</b></h4>
                 </div>
@@ -142,7 +145,7 @@
               </div>
             </div>
           </div>
-          <!-- <a class="btn btn-primary mt-4" href="#">Read more</a> -->
+          <!-- <a class="btn btn-outline-primary mt-4" href="#">Read more</a> -->
         </div>
       </section>
 
@@ -200,9 +203,9 @@
                 <h3 class="mb-3 font-weight-normal">Phone</h3>
                 <p class="lead">NIRMAL PATEL</p>
                 <p>+91 8128157173</p>
-                <button class="btn btn-lg btn-outline-primary" type="button">
+                <a href="tel:+918128157173" class="btn btn-lg btn-outline-primary mt-4" href="#">
                   Call Now
-                </button>
+                </a>
               </div>
             </div>
             <div class="col-md-4 my-4">
@@ -213,9 +216,9 @@
                   201, Bhavya Plaza, Nr. IOC Colony, Mehul Nagar,
                   Jamnagar-361006, Gujarat, India.
                 </p>
-                <button class="btn btn-lg btn-outline-primary" type="button">
-                  Get Direction
-                </button>
+                <a href="#" class="btn btn-lg btn-outline-primary mt-4" href="#">
+                    Get Direction
+                </a>
               </div>
             </div>
             <div class="col-md-4 my-4">
